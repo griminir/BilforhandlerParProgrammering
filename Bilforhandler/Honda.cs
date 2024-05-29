@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bilforhandler
 {
-    public class HondaCivic : Car
+    public class Honda : Car
     {
         public string PreviousOwner { get; private set; }
-        public HondaCivic(string brand, int vintage, string reg, double distance, string previousOwner) : base(brand, vintage, reg, distance)
+        public Honda(string brand, int vintage, string reg, double distance, string previousOwner) : base(brand, vintage, reg, distance)
         {
             PreviousOwner = previousOwner;
         }

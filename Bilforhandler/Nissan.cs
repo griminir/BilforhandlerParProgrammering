@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Bilforhandler
 {
-    public class NissanRx7 : Car
+    public class Nissan : Car
     {
         public int MaxSpeed { get; set; }
-        public NissanRx7(string brand, int vintage, string reg, double distance, int maxSpeed) : base(brand, vintage, reg, distance)
+        public Nissan(string brand, int vintage, string reg, double distance, int maxSpeed) : base(brand, vintage, reg, distance)
         {
             MaxSpeed = maxSpeed;
         }
